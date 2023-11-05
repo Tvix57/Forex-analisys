@@ -1,5 +1,5 @@
-#ifndef ALGORITHM_TRADING_SRC_CHARTS_CHARTAREA_H_
-#define ALGORITHM_TRADING_SRC_CHARTS_CHARTAREA_H_
+#ifndef CHARTS_CHARTAREA_H_
+#define CHARTS_CHARTAREA_H_
 
 #include <QDateTime>
 #include <QDateTimeAxis>
@@ -38,4 +38,4 @@ class ChartArea : public SimpleChart {
   void FullClear();
 };
 
-#endif  // ALGORITHM_TRADING_SRC_CHARTS_CHARTAREA_H_
+#endif  // CHARTS_CHARTAREA_H_

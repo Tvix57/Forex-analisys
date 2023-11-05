@@ -1,5 +1,5 @@
-#ifndef ALGORITHM_TRADING_SRC_CHARTS_SIMPLECHART_H_
-#define ALGORITHM_TRADING_SRC_CHARTS_SIMPLECHART_H_
+#ifndef CHARTS_SIMPLECHART_H_
+#define CHARTS_SIMPLECHART_H_
 
 #include <QChartView>
 #include <QLineSeries>
@@ -59,4 +59,4 @@ class SimpleChart : public QChartView {
   void AddAndSortData();
 };
 
-#endif  // ALGORITHM_TRADING_SRC_CHARTS_SIMPLECHART_H_
+#endif  // CHARTS_SIMPLECHART_H_

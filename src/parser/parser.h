@@ -1,5 +1,5 @@
-#ifndef ALGORITHM_TRADING_SRC_PARSER_PARSER_H_
-#define ALGORITHM_TRADING_SRC_PARSER_PARSER_H_
+#ifndef PARSER_PARSER_H_
+#define PARSER_PARSER_H_
 
 #include <QDateTime>
 #include <QFile>
@@ -24,4 +24,4 @@ class Parser : public QObject {
   void NewData();
 };
 
-#endif  // ALGORITHM_TRADING_SRC_PARSER_PARSER_H_
+#endif  // PARSER_PARSER_H_
